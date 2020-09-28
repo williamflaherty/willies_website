@@ -1,0 +1,58 @@
+/* this is a comment */ 
+body {
+    background-color:black; 
+}
+
+#container {
+    color:black;
+    background-color:white;
+    text-align: center;
+    width:50%;
+    /* this changes the top margin to be 20px
+    and the padding to 20px on all sides */ 
+    margin: 20px auto; /* why does auto decide to fill the page? */
+    padding: 20px;  
+
+    font-family: 'Asap', sans-serif;
+
+}
+
+.left-col{
+    float:left;
+    width:50%
+}
+
+.right-col{
+    float:right;
+    width:50%
+}
+
+.clearFix{
+clear:both;
+}
+
+h1 {
+   color: #A64AC9;  
+}
+
+.github{
+    color: #A64AC9;  
+    text-decoration: none;
+    padding:10px;
+    border-style: solid;
+    border-radius:10px;
+    border-width: 2px;
+}
+
+img{
+    width:300px;
+}
+
+.info {
+    text-align: left;
+}
+
+a{
+    color: #A64AC9;  
+
+}
